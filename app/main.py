@@ -283,5 +283,5 @@ async def alert_hook(body: str = Body(..., media_type='text/plain')):
     
     return action_result
 
-# if __name__ == "__main__":
-#   uvicorn.run(app, port=int(environ.get("PORT", 8080)), host="0.0.0.0")
+if __name__ == "__main__":
+  uvicorn.run(app, port=int(environ.get("PORT", 80)), host="0.0.0.0")
