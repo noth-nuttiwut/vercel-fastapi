@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"public": true,
-	"functionFailoverRegions": ["sin1", "hkg1"],
+	"regions": ["sin1", "hkg1"],
 	"builds": [
 		{ 
 			"src": "app/main.py", 
